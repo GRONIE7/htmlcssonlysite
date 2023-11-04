@@ -1,0 +1,243 @@
+* {
+    font-family: 'Roboto', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*dark mode*/
+
+
+header {
+    background-color: #1f2937;
+    height: 410px;
+    box-shadow: 2px 2px 5px #1f2937;
+}
+
+body {
+    margin: 0;
+}
+#ytb_vid{
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+    position: sticky;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+#header_logo {
+    width: 90px;
+    height: 90px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#header_logo:hover{
+    transition: ease-in 0.7;
+    box-shadow: 5px #1f2937;
+    transform: scale(1.2) rotate(360deg);
+}
+nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 15px;
+    margin-left: 15px;
+    gap: 10px;
+    
+}
+
+nav li:hover {
+    color: aquamarine;
+    font-weight: bolder;
+    
+}
+nav li:link{
+    color: aqua;
+}
+nav li:visited{
+    color: aquamarine;
+}
+h1 {
+    font-style: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.header_div2 {
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.header_div2 p {
+    font-style: 18px;
+    color: #E5E7EB;
+}
+
+.header_div2 button {
+    padding: 5px;
+
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    color: aquamarine;
+    background-color: #0428f3;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3x #F9FAF8;
+}
+
+.header_div2 img {
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+
+/* on passe au body main*/
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 90px;
+    
+}
+
+.item {
+    transition: 0.3s ease-in-out;
+    background-color: wheat;
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgb(5, 140, 250);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #1f2937;
+    cursor: pointer;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    justify-content: center;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote p {
+    font-style: light italic;
+    font-size: 36px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+q {
+    text-align: center;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.bottom_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+    margin-right: 90px;
+    margin-left: 90px;
+    box-shadow: 5px 5px 5px #1f2937;
+
+}
+
+.call {
+    background-color: #3882f6;
+    color: #E5E7EB;
+
+
+}
+
+
+.footer_div {
+    justify-content: center;
+    display: flex;
+    flex: 1 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#bottom {
+    border: 2px solid white;
+    align-items: center;
+    text-align: center;
+}
+
+#botttom:hover {
+    
+    color: aqua;
+    transition: ease-in-out 0.300ms;
+    background-color: #0428f3;
+}
+
+h4 {
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1f2937;
+    margin-top: 80px;
+
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    
+}
